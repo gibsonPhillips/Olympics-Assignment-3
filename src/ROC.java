@@ -26,11 +26,7 @@ public class ROC {
      int countNSFs(){
         return NOCs.size();
     }
-    public String toString() {
-        return "ROC{" +
-                "name='" + name + '\'' +
-                '}';
-    }
+
      int countPlayersInNOCNSFs(){
         int players=0;
         for(int i=0;i<NOCs.size();i++) {

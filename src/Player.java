@@ -31,4 +31,11 @@ public class Player {
     public void addNSF(NSF NSF){
         NSFs.add(NSF);
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

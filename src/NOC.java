@@ -22,12 +22,7 @@ public class NOC {
         this.NOCs = NOCs;
     }
 
-    @Override
-    public String toString() {
-        return "NOC{" +
-                "name='" + name + '\'' +
-                '}';
-    }
+
 
     int countPlayersInNSFs() {
         int players = 0;
