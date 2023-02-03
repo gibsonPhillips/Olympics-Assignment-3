@@ -32,7 +32,7 @@ public class NOC {
     int countPlayersInNSFs() {
         int players = 0;
         for (int i = 0; i < NOCs.size(); i++) {
-            players += NOCs.get(i).countPlayersInNSFs();
+            players += NOCs.get(i).getPlayers().size();
         }
         return players;
     }

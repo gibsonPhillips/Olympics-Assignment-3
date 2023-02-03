@@ -17,8 +17,14 @@ public class NSF {
     public ArrayList<Player> getPlayers(){
         return Players;
     }
-    public void setPlayers(){
-        this.name = name;
+    public void setPlayers(ArrayList<Player> Players){
+        this.Players = Players;
+    }
+    public void listNSFPlayers(){
+        for(int i=0;i<Players.size();i++) {
+            System.out.print(Players.get(i)+" ");
+        }
+        System.out.println("");
     }
 
 }
